@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+}
+@media (max-width: 600px) {
+  .navbar {
+      flex-direction: column;
+  }
+  .content {
+      padding: 10px;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+      justify-content: space-around;
+  }
+  .content {
+      padding: 20px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .content {
+      padding: 40px;
+  }
+}
+
+#background {
+    background-image: url('img/backgroundAdmin.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+/*NAVIGATOR*/
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #A1887F;
+    justify-content: space-around;
+  }
+  
+ .navigator li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigator li img {
+    border-radius: 50%;
+    width: 89px;
+    height: 89px;
+    margin-right: 20px;
+  }
+  
+  .navigator li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .navigator li a:hover {
+    background-color: #424242;
+    transition: background-color 1.0s;
+  }
+
+/*form:login*/
+  .container {
+    width: 400px;
+    margin: 100px auto; /* Sayfa ortasında yer alır */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Hafif şeffaf beyaz */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px auto; /* Ortalar ve alt boşluk ekler */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Logoyu yuvarlar */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Form elemanları arasına boşluk ekler */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px; /* Label ile input arasına boşluk */
+    color: #333; /* Koyu gri */
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #6a1b9a; /* Odaklanınca mor çerçeve */
+    box-shadow: 0 0 4px rgba(106, 27, 154, 0.5);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Butonları sağa ve sola ayırır */
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #6a1b9a; /* Mor ton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #4a0072; /* Daha koyu mor */
+}
+
+.button-group button:last-child {
+    background-color: #00897b; /* Yeşil ton */
+}
+
+.button-group button:last-child:hover {
+    background-color: #00574b; /* Daha koyu yeşil */
+}
+
+/*FOOTER*/
+.customFooter {
+    background-color: #A1887F; /* Sayfanın genel temasına uygun */
+    color: #fff; /* Beyaz yazılar */
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .socialIcons a {
+    color: #fff;
+    font-size: 38px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footerLogo img {
+    width: 80px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .footerNav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .footerNav a:hover {
+    color: gold;
+    
+  }
+
+  .socialIcons a:hover {
+    color: gold; /* Sosyal ikonlar için hover rengi */
+  }
+  
+  .footerBottom {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+
+
+  #studentDiv {
+    border: 2px solid #333333; /* Daha şık bir siyah kenar */
+    margin: 20px auto; /* Ortalanmış ve dengeli margin */
+    max-width: 800px; /* Genişliği sınırlayarak modern görünüm */
+    padding: 20px; /* İçerik ile kenarlar arasında daha dengeli boşluk */
+    background-color: white; /* Logodaki mavi tonlarına uyumlu bir renk */
+    border-radius: 10px; /* Hafif köşeler için yuvarlatma */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  }
+
+  
